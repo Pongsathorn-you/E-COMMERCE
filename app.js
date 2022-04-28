@@ -54,6 +54,6 @@ app.post('/payment',function(req,res){
 app.use('/', indexRouter);
 app.use('/categories', categoryRouter);
 app.use('/products', productRouter);
-
+//test commit1
 
 module.exports = app;
